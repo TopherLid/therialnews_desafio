@@ -1,24 +1,20 @@
-# README
+# TheRialNews
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Portal de noticias realizado como desafío para el curso de ruby on rails.
 
-Things you may want to cover:
+* Ruby version 3.1.1
 
-* Ruby version
+Al crear una noticia ésta requiere:
 
-* System dependencies
+* Titular de la noticia
+* URL de una imagen
+* Información, contexto o la noticia per sé en descripción
 
-* Configuration
+La noticia quedará publicada con el autor que ha iniciado sesión.
 
-* Database creation
+Bajo la mísma lógica, se realizan los comentarios, requiriendo únicamente lo que se desea comentar.
 
-* Database initialization
+* Para enlazar el comentario paso como argumento en la URL el ID de la noticia, sin embargo, 
+no permite realizar la creación de comentarios si el usuario no está logeado
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
